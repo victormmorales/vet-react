@@ -32,7 +32,6 @@ const Formulario = () => {
             Nombre del dueño
           </label>
           <input
-            autoFocus
             id="propietario"
             type="text"
             placeholder="Nombre del dueño"
@@ -48,7 +47,6 @@ const Formulario = () => {
             Email
           </label>
           <input
-            autoFocus
             id="email"
             type="email"
             placeholder="Tu email"
@@ -64,7 +62,6 @@ const Formulario = () => {
             Alta
           </label>
           <input
-            autoFocus
             id="alta"
             type="date"
             className="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
