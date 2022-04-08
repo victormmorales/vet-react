@@ -9,8 +9,8 @@ const ListadoPacientes = ({ paciente }) => {
         <span className="text-indigo-600 font-bold">pacientes y citas</span>
       </p>
 
-      {paciente.map((animal, index) => (
-        <Pacientes key={index} animal={animal} />
+      {paciente.map((animal) => (
+        <Pacientes key={animal.id} animal={animal} />
       ))}
     </div>
   );
